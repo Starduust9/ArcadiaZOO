@@ -1,0 +1,44 @@
+       h1 {
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 24px;
+            color: hsla(0, 100%, 50%, 0.700);
+        }
+        h4 {
+            font-size: 20px;
+            color: hsla(0, 100%, 50%, 0.700);
+        }
+        h3 {
+            font-size: 18px;
+        }
+        h5 {
+            font-size: 14px;
+        }
+        .blue-text {
+        color: rgb(0, 100, 255);
+        }
+        .red-text {
+        color: red;
+        }
+        em {
+            color: rgb(200, 130, 0);
+        }
+        .gras {
+            font-weight: bold;
+        }
+        a {
+            color: #5a853d;
+        }
+         a:hover {
+            color: #864a05;
+        }
+        
+        .response-container {
+            border: 5px solid #4C678F; /* Définit la bordure de l'élément */
+            padding: 20px; /* Ajoute un espace intérieur pour améliorer l'apparence */
+            margin-bottom: 20px; /* Ajoute un espace en bas pour séparer les réponses */
+        }
+        .border-bottom {
+            color: #4C678F;
+        }

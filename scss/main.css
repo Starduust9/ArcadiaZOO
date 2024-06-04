@@ -31,7 +31,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #1889F1;
-  --bs-secondary: #4C678F;
+  --bs-secondary: #5a853d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -39,7 +39,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #343a40;
   --bs-primary-rgb: 24, 137, 241;
-  --bs-secondary-rgb: 76, 103, 143;
+  --bs-secondary-rgb: 90, 133, 61;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -92,7 +92,7 @@
   --bs-tertiary-color: rgba(33, 37, 41, 0.5);
   --bs-tertiary-color-rgb: 33, 37, 41;
   --bs-tertiary-bg: #f8f9fa;
-  --bs-tertiary-bg-rgb: 248, 249, 250;
+  --bs-tertiary-bg-rgb: 134, 74, 5;
   --bs-heading-color: inherit;
   --bs-link-color: #1889F1;
   --bs-link-color-rgb: 24, 137, 241;
