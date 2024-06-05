@@ -33,12 +33,3 @@
          a:hover {
             color: #864a05;
         }
-        
-        .response-container {
-            border: 5px solid #4C678F; /* Définit la bordure de l'élément */
-            padding: 20px; /* Ajoute un espace intérieur pour améliorer l'apparence */
-            margin-bottom: 20px; /* Ajoute un espace en bas pour séparer les réponses */
-        }
-        .border-bottom {
-            color: #4C678F;
-        }
