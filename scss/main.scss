@@ -17,19 +17,19 @@ p{
     color: black;
 }
 
-.hero-scene {
+.accueil-scene {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/assets/picture/animaux-sauvages-fond.png); 
+    background-color: black; 
     background-size: cover;
     background-position: center;
     filter: brightness(0.3);
 }
 
-.hero-scene-content {
+.accueil-scene-content {
     min-height: calc(100vh - 300px);
     padding-bottom: 300px; 
     box-sizing: border-box; 

@@ -1,16 +1,18 @@
        h1 {
             font-size: 28px;
+            color: rgb(255, 255, 255);
         }
         h2 {
             font-size: 24px;
-            color: hsla(0, 100%, 50%, 0.700);
-        }
-        h4 {
-            font-size: 20px;
-            color: hsla(0, 100%, 50%, 0.700);
+            color: rgb(255, 255, 255);
         }
         h3 {
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+        }
+        h4 {
             font-size: 18px;
+            color: rgb(255, 255, 255);
         }
         h5 {
             font-size: 14px;
@@ -32,4 +34,74 @@
         }
          a:hover {
             color: #864a05;
+        }
+
+        .custom-slider { display: none; }
+        .slider-container {
+            max-width: 800px;
+            position: relative;
+            margin: auto;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            color: white;
+            font-size: 30px;
+            background-color: black;
+            transition: background-color 1.5s ease;
+        }
+        .prev { left: 15px;}
+        .next { right: 15px;}
+        .prev:hover, .next:hover {
+            background-color: black;
+        }
+        .slide-text {
+            position: absolute;
+            color: white;
+            font-size: 15px;
+            padding: 15px;
+            bottom: 15px;
+            width: 100%;
+            text-align: center;
+        }
+        .slide-index {
+            color: white;
+            font-size: 13px;
+            padding: 15px;
+            position: absolute;
+            top: 0;
+        }
+        .slide-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            object-position: center;           
+        }
+        .slide-dot { text-align: center; }
+        .dot {
+            cursor: pointer;
+            width: 10px;
+            height: 10px;
+            margin: 0 2px;
+            background-color: #999999;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 1.3s ease;           
+        }
+        .active, .dot:hover { background-color: #111111; }
+        .fade {
+            animation-name: fade;
+            animation-duration: 1s;        
+        }
+        @keyframes fade {
+            from {opacity: 8} 
+            to {opacity: 1}
         }
